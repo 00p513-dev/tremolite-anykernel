@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Tremolite Kernel for Redmi 6/6A
+kernel.string=Tremolite Kernel for Redmi 6/6A (64 bit)
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -13,7 +13,7 @@ do.cleanuponabort=0
 device.name1=cactus
 device.name2=cerues
 device.name3=certus
-device.name4=
+device.name4=certus64
 device.name5=
 supported.versions=
 supported.patchlevels=
@@ -23,7 +23,6 @@ supported.patchlevels=
 block=/dev/block/platform/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
-
 
 ## AnyKernel methods (DO NOT CHANGE)
 # import patching functions/variables - see for reference
